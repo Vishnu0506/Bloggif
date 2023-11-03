@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+    color: pink;
+}
+
+.flexcointainer1{
+    display: flex;
+    flex-direction: row;
+    gap: -10px;
+    flex: 1fr 1fr;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flexcontainer2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex: 1fr 1fr;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 100px;
+    margin-top: -80px;
+}
+
+.flexboxcontainer3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: -10px;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+
+.flexboxcontainer4 {
+   margin-left: 80px;
+   margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+  
+
+
+}
+
+.logo1{
+    height: 160px;
+    width: 160px;
+}
+
+.border{
+    border: 5px solid white;
+    margin: 10px 10px 10px 10px;
+    border-radius: 5%;
+    border-bottom: 0px;
+}
+
+footer {
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: last baseline;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }

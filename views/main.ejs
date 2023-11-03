@@ -1,0 +1,25 @@
+<%- include ("./partials/header.ejs") %>
+
+    <div>
+        <h4 style="color: white; margin-top: 60px; margin-left: 50px;"> <a href="/create">Click here to start writing
+                your blog</a> </h4>
+    </div>
+
+    <h5 style=" margin-top: 60px; margin-left: 50px;"> Your Blogs are Listed below </h5>
+
+
+
+    <div class="flexboxcontainer3">
+        <% if ( locals.Title && locals.Paragraph ) {%>
+            <h3> <span style="color: white;" > Title </span>  - <%= Title %>
+            </h3>
+            <p>  <span style="color: white;" >Content </span>  - <%= Paragraph %>
+            </p>
+            <% } else { %>
+                <h3> There is nothing yet to display</h3>
+                <% } %>
+
+    </div>
+
+
+    <%- include ("./partials/footer.ejs") %>
